@@ -1,4 +1,9 @@
 This is new file created in development branch.
+//Vivek started
+ public static int funct2 (int param) {
+	System.out.println ("Inside funct2 with param " + param);
+	return param * 2;
+    }
 //mahender started
 public static void main (String[] args) {
 	int val;
@@ -19,3 +24,4 @@ public static void main (String[] args) {
 
 	System.out.println ("funct2 returned a value of " + val);
     }
+
